@@ -1,0 +1,130 @@
+h2 {
+  font-family: "lato", sans-serif;
+}
+body {
+  font-family: "lato", sans-serif;
+}
+.container h2 {
+  margin-top: 50px;
+  font-family: "lato", sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+.cart h5 {
+  margin-top: 30px;
+  font-family: "lato", sans-serif;
+  font-size: 20px;
+  color: #000;
+  font-weight: 600;
+}
+.cart p {
+  font-family: "lato", sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  color: #434343;
+}
+.country {
+  font-family: "lato", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+.cart .btn {
+  color: #ff6e03;
+  border: 1px solid #ffc69b;
+  background-color: #fff;
+  text-align: right;
+  margin: 0 auto;
+  align-items: right;
+  margin-top: 20px;
+  outline: none;
+}
+.cart .btn:hover {
+  color: #fff;
+  border: 1px solid #ffc69b;
+  background-color: #ff6e03;
+  text-align: right;
+  margin: 0 auto;
+  align-items: right;
+  margin-top: 20px;
+  outline: none;
+}
+.cart .btn:active,
+:focus {
+  outline: none;
+}
+h2::after {
+  content: ".";
+  color: #f99800;
+}
+/*Environment*/
+.environment {
+  margin-top: 20px;
+  padding-top: 50px;
+  color: #000;
+}
+.col-lg-6 .para {
+  color: #000;
+  font-family: "lato", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: left;
+}
+.gallery-img{
+    padding: 20px 5px;
+}
+/*know*/
+.know{
+    padding: 30px 20px; 
+
+}
+.kown-more {
+    padding: 30px 20px; 
+}
+.kown-more h3{
+  font-family: "lato", sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  padding-bottom: 20px;
+  text-align: left;
+  line-height: 50px;
+
+}
+.kown-more span{
+    color: #ff6e03;
+}
+.drop h4{
+    padding: 0 0px;
+    font-family: "lato", sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+}
+.linked .drop-para{
+    padding: 10px 10px;
+    font-family: "lato", sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    margin-left: -10px;
+}
+.linked a{
+    text-decoration: none;
+}
+.kown-more h3::after {
+    content: ".";
+    color: #f99800;
+  }
+  
+  @media only screen and (min-width: 375px) and (max-width:800){
+    body{
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+    }
+    .linked .drop-para{
+      margin-left: -50px;
+  
+    }
+    .drop h4{
+        font-weight: 30px;
+    }
+  }
